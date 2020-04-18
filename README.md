@@ -15,7 +15,10 @@ ViewModel是什么呢，是用于保存数据的，它是怎保存的呢？它�
 
 举个栗子：
 
-    当应用程序翻转屏幕时，被系统意外回收后再次打开应用时等方式都要导致当前Activity被重新创建，如果这个Activity之前有数据存在，那么重建后数据就会丢失。这个时候就能用到ViewModel了，因为它贯穿Activity的整个周期，所以它不受重建的影响，保存在它里面的数据就不会丢失。
+    当应用程序翻转屏幕时，被系统意外回收后再次打开应用时等方式都要导致当前Activity被重新创建，
+    如果这个Activity之前有数据存在，那么重建后数据就会丢失。
+    这个时候就能用到ViewModel了，因为它贯穿Activity的整个周期，所以它不受重建的影响，
+    保存在它里面的数据就不会丢失。
 
 ViewModel:[官方文档](https://developer.android.google.cn/topic/libraries/architecture/viewmodel?hl=zh_cn#kotlin)
 
